@@ -11,7 +11,7 @@ Install virtual env and activate it (optional)
 `source venv/bin/activate`
 
 Install packages  
-`pip install pip install -r requirements.txt`
+`pip install -r requirements.txt`
 
 ## How to run
 
