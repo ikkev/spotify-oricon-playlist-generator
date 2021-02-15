@@ -7,7 +7,7 @@ Python (Version 3.8+ recommended)
 ## Initial setup
 
 Install virtual env and activate it (optional)  
-`python3 -m venv venv`
+`python3 -m venv venv`  
 `source venv/bin/activate`
 
 Install packages  
