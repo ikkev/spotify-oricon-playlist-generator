@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Python (Version 3.8+ recommended)
+Python (Version 3.8+ recommended!)
 
 ## Initial setup
 
