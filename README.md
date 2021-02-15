@@ -10,7 +10,7 @@ Install virtual env and activate it (optional)
 `python3 -m venv venv`
 `source venv/bin/activate`
 
-Install packages
+Install packages  
 `pip install pip install -r requirements.txt`
 
 ## How to run
