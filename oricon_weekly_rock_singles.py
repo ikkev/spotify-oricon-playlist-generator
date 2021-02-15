@@ -64,7 +64,8 @@ def clear_playlist():
 
     # Remove the songs from the playlist
     sp.playlist_remove_all_occurrences_of_items(
-        PLAYLIST_ID, current_songs_on_playlist)
+        PLAYLIST_ID, current_songs_on_playlist
+    )
 
     print('playlist cleared')
 
@@ -90,16 +91,12 @@ def add_songs_to_playlist(songs):
             playlist_songs.append(SILENT_TRACK_ID)
 
             # FIXME send email if a song is not found, manual action needed
-
             continue
 
         first_result = results['tracks']['items'][0]
         playlist_songs.append(first_result["id"])
 
-    sp.playlist_add_items(
-        PLAYLIST_ID,
-        playlist_songs
-    )
+    sp.playlist_add_items(PLAYLIST_ID, playlist_songs)
 
     print('songs added to playlist')
 
