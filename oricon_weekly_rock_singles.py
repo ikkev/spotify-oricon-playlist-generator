@@ -106,7 +106,7 @@ def update_playlist_description(oricon_url):
 
     sp.playlist_change_details(
         playlist_id=PLAYLIST_ID,
-        description=f'[Updated Weekly]  [Silent Track for unfound songs]  [Last Updated: {datetime.date(datetime.now())}]  [Retrieved From Oricon Japan: {oricon_url}] '
+        description=f'[Updated weekly]  [Silent Track for songs not on Spotify]  [Last Updated: {datetime.date(datetime.now())}]  [Retrieved From Oricon Japan: {oricon_url}] '
     )
 
     print('playlist description updated')
